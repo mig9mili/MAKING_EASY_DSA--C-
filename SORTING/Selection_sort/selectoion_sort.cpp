@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//optimal also  find min ele and swap with intial pos / we can also maintina temp arr but it not optinmal sol 
-// this every less mem write algo , not stable algo exmaple 2, 3, 4 ,5,5 
+//this is optimal also so we find min ele and swap with intial pos / we can also maintain temp arr but it not optinmal sol 
+// this every less mem write algo ,but not stable algo exmaple 2, 3, 4 ,5,5 
 void selectionSort(int arr[], int n){
 
  for(int i =0 ; i< n-1; i++){
