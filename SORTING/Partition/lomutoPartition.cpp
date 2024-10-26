@@ -10,7 +10,7 @@ int LomutoPartion(int arr[] , int l , int h){
 
     //swap(arr[pivot] , arr[h]) //if pivote in not the last element 
 
-    int pivot = arr[h];
+   int pivot = arr[h];
     int i = l-1;
     for(int j = l ; j<=h-1 ; j++){
         if(arr[j] < pivot){
